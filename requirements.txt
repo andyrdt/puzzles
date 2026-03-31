@@ -6,4 +6,4 @@ numpy
 wandb
 huggingface_hub
 jupyterlab
-nnsight
+nnsight==0.6.3

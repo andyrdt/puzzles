@@ -4,7 +4,7 @@
 
 Monthly algorithmic mechanistic interpretability challenge. Each puzzle is a toy model trained on a toy algorithmic task. The model is as simple as possible while achieving perfect accuracy. Your goal: reverse-engineer the algorithm the model learned.
 
-**Starter notebook**: [Open in Colab](https://colab.research.google.com/github/andyrdt/puzzles/blob/main/04_2026/demo_minimal.ipynb)
+**Starter notebook**: [Open in Colab](https://colab.research.google.com/github/andyrdt/puzzles/blob/main/04_2026/starter_notebook.ipynb)
 
 ## Puzzle 1: Max of List
 
@@ -98,7 +98,7 @@ logits, attns = model(x)
 print(f"Predicted max: {logits[0, -1].argmax().item()}")  # → 7
 ```
 
-See `demo_minimal.ipynb` for a full starter notebook ([Open in Colab](https://colab.research.google.com/github/andyrdt/puzzles/blob/main/04_2026/demo_minimal.ipynb)).
+See `starter_notebook.ipynb` for a full starter notebook ([Open in Colab](https://colab.research.google.com/github/andyrdt/puzzles/blob/main/04_2026/starter_notebook.ipynb)).
 
 ## Wandb metrics
 
@@ -123,7 +123,7 @@ When `--wandb` is enabled, the following are logged:
 ├── README.md
 ├── model.py              # Shared attention-only transformer
 ├── push_to_hf.py         # Push checkpoints to HuggingFace
-├── demo_minimal.ipynb    # Starter notebook (Open in Colab)
+├── starter_notebook.ipynb # Starter notebook (Open in Colab)
 ├── puzzle1a/
 │   ├── train.py          # Training script for part (a)
 │   └── checkpoints/      # Saved model, config, plots (gitignored)
