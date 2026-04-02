@@ -1,6 +1,6 @@
 # Mech Interp Puzzles — April 2026
 
-*Inspired by [Callum McDougall](https://www.callumcdougall.net/)'s [ARENA Monthly Algorithmic Challenges](https://arena-chapter1-transformer-interp.streamlit.app/Monthly_Algorithmic_Challenge).*
+*Inspired by [Callum McDougall](https://www.callumcdougall.net/)'s [ARENA Monthly Algorithmic Challenges](https://learn.arena.education/chapter1_transformer_interp/monthly_algorithmic/).*
 
 Monthly algorithmic mechanistic interpretability challenge. Each puzzle is a toy model trained on a toy algorithmic task. The model is as simple as possible while achieving perfect accuracy. Your goal: reverse-engineer the algorithm the model learned.
 
