@@ -1,0 +1,6 @@
+# Only the release scripts are public; checkpoints and local scratch stay untracked.
+*
+!.gitignore
+!train.py
+!evaluate_checkpoint.py
+!test_protocol.py
